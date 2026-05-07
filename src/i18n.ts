@@ -15,8 +15,8 @@ export const resources = {
         admin: 'Administrace'
       },
       seo: {
-        title: 'Probuďte se v oblacích: Panorama Trojmezí | Luxusní ubytování v Beskydech',
-        description: 'Hledáte únik z reality? Panorama Trojmezí nabízí exkluzivní ubytování s privátní saunou a výhledem, který vám vyrazí dech. Zažijte naprostý klid v srdci hor.'
+        title: 'Apartmány Panorama Trojmezí | Luxusní ubytování v Beskydech',
+        description: 'Ubytování s privátní saunou s nezapomenutelným výhledem v srdci Beskyd.',
       },
       hero: {
         titlePrefix: 'Apartmány',
@@ -26,11 +26,9 @@ export const resources = {
       },
       about: {
         title: 'Ubytování',
-        intro1: 'Vítejte u nás, v malebné vesnici <b>Dolní Lomná</b>, konkrétně v části Novina, která se nachází nad údolím stejnojmenné říčky Lomné v nadmořské výšce cca 600 m.n.m. Oblast je naprosto výjimečná svou polohou v blízkosti státních hranic mezi Českou a Slovenskou republikou a Polskem.',
-        intro2: 'Naše chalupa je novostavba zkolaudovaná v roce 2024 a nabídne Vám <b>klidné a luxusní ubytování</b> s dechberoucím výhledem na údolí a protější kopce v prostorném a plně vybaveném apartmánu.',
-        intro3: 'Uužijte si krásné chvíle při pěších či cyklo toulkách beskydskou přírodou, v zimním období na běžkách či sjezdovkách v nedalekém lyžařském areálu Severka či odpočinek a pohodu v apartmánu.',
+        intro: '<p>Vítejte u nás, v malebné vesnici <b>Dolní Lomná</b>, konkrétně v části Novina, která se nachází nad údolím stejnojmenné říčky Lomné v nadmořské výšce cca 600 m.n.m. Oblast je naprosto výjimečná svou polohou v blízkosti státních hranic mezi Českou a Slovenskou republikou a Polskem.</p><p>Naše chalupa je novostavba zkolaudovaná v roce 2024 a nabídne Vám <b>klidné a luxusní ubytování</b> s dechberoucím výhledem na údolí a protější kopce v prostorném a plně vybaveném apartmánu.</p><p>Užijte si krásné chvíle při pěších či cyklo toulkách beskydskou přírodou, v zimním období na běžkách či sjezdovkách v nedalekém lyžařském areálu Severka či odpočinek a pohodu v apartmánu.</p>',
         welcome: {
-          title: 'IHNED PO PŘÍJEZDU',
+          title: 'PO PŘÍJEZDU',
           text: 'Na přivítanou na Vás bude čekat láhev vychlazeného skvělého Prosecca. Pro prvotní využití naleznete několik ks kávových kapslí, čaj, dochucovadla. K Vaší případné spotřebě je za poplatek k dispozici víno z jihomoravských Čejkovic za skvělou cenu - vše v přívlastkové kvalitě pozdní sběr nebo výběr z bobulí.'
         },
         sauna: {
@@ -47,12 +45,7 @@ export const resources = {
         description: 'Místo pro každého, kdo si potřebuje vyčistit hlavu.',
         intro: 'Objekt nabízí <span class="text-gold font-bold">2 prostorné samostatné a oddělené apartmány</span>, každý s vlastní koupelnou a zázemím.',
         layout: {
-          living: '1 obývací pokoj s kuchyní a východem na terasu',
-          bedrooms: {
-            title: '2 ložnice:',
-            room1: '1. pokoj - 1x manželská postel, 1x jednolůžko',
-            room2: '2. pokoj - 1x manželská postel, 1x patrová postel pro děti'
-          }
+          text: '<ul><li><b>1 obývací pokoj s kuchyní a východem na terasu</b></li><li><b>2 ložnice:</b><br>1. pokoj - 1x manželská postel, 1x jednolůžko<br>2. pokoj - 1x manželská postel, 1x patrová postel pro děti</li></ul>'
         },
         features: {
           capacity: 'Až 7 osob',
@@ -65,12 +58,7 @@ export const resources = {
           title: 'VYBAVENÍ A SLUŽBY',
           viewGallery: 'Prohlédnout fotogalerii',
           viewMorePhotos: 'Prohlédnout více fotografií',
-          blocks: [
-            'Přímo z obývacího prostoru se vychází na terasu orientovanou na východ, vybavenou kavárenskými sety pro vaše posezení u kávy či sklenky oblíbeného nápoje. Obývací pokoj je vybaven plochou TV 139 cm se satelitním příjmem. Terasa nabízí výhled na celé panorama této části Beskyd.',
-            'Kuchyně apartmánu je plně vybavena nádobím a jídelním servisem pro 8 osob. Součástí moderní kuchyňské linky je velká lednice se samostatným mrazákem, myčka nádobí, indukční deska, pečící i mikrovlnná trouba, rychlovarná konvice a kapslový kávovar Nespresso.',
-            'Ložnice jsou povlečeny ložním prádlem, v koupelnách naleznete dostatek ručníků a osušek. K dispozici jsou také základní čistící a úklidové prostředky (jar, tablety do myčky, kuchyňské houbičky, utěrky apod.).',
-            'V koupelně je pro vaše pohodlí připraven fén, šampon, mýdlo a toaletní papír. V garáži objektu je možné bezpečně umístit a nabíjet vaše elektrokola.'
-          ]
+          text: '<p>Přímo z obývacího prostoru se vychází na terasu orientovanou na východ, vybavenou kavárenskými sety pro vaše posezení u kávy či sklenky oblíbeného nápoje. Obývací pokoj je vybaven plochou TV 139 cm se satelitním příjmem. Terasa nabízí výhled na celé panorama této části Beskyd.</p><p>Kuchyně apartmánu je plně vybavena nádobím a jídelním servisem pro 8 osob. Součástí moderní kuchyňské linky je velká lednice se samostatným mrazákem, myčka nádobí, indukční deska, pečící i mikrovlnná trouba, rychlovarná konvice a kapslový kávovar Nespresso.</p><p>Ložnice jsou povlečeny ložním prádlem, v koupelnách naleznete dostatek ručníků a osušek. K dispozici jsou také základní čistící a úklidové prostředky (jar, tablety do myčky, kuchyňské houbičky, utěrky apod.).</p><p>V koupelně je pro vaše pohodlí připraven fén, šampon, mýdlo a toaletní papír. V garáži objektu je možné bezpečně umístit a nabíjet vaše elektrokola.</p>'
         },
         pricing: {
           title: 'Ceník ubytování',
@@ -102,11 +90,7 @@ export const resources = {
             details: 'Celá chalupa, oba apartmány, týden',
             footer: 'Cena zahrnuje elektrickou energii, úklid, místní poplatky a 2x vstup do finské sauny.'
           },
-          notes: [
-            '* Cena nezahrnuje využití nabíjení elektromobilu/hybridu.',
-            '* PŘÍSNÝ ZÁKAZ KOUŘENÍ ve všech vnitřních prostorách. ZVÍŘATA NEJSOU POVOLENA.',
-            '* Chalupa se nachází v CHKO Beskydy, prosíme o ohleduplnost k přírodě, sousedům a životnímu prostředí (třídění odpadů)'
-          ]
+          notesText: '<p>* Cena nezahrnuje využití nabíjení elektromobilu/hybridu.</p><p>* PŘÍSNÝ ZÁKAZ KOUŘENÍ ve všech vnitřních prostorách. ZVÍŘATA NEJSOU POVOLENA.</p><p>* Chalupa se nachází v CHKO Beskydy, prosíme o ohleduplnost k přírodě, sousedům a životnímu prostředí (třídění odpadů)</p>'
         }
       },
       booking: {
@@ -194,9 +178,7 @@ export const resources = {
       },
       about: {
         title: 'Accommodation',
-        intro1: 'Welcome to our place in the picturesque village of <b>Dolní Lomná</b>, specifically in the Novina area, located above the valley of the Lomná river at an altitude of approximately 600 m above sea level. The area is absolutely exceptional for its location near the borders of the Czech Republic, Slovakia, and Poland.',
-        intro2: 'Our cottage is newly built and approved in 2024, offering you <b>quiet and luxury accommodation</b> with a breathtaking view of the valley and opposite hills in a spacious and fully equipped apartment.',
-        intro3: 'Enjoy beautiful moments while hiking or cycling through the Beskydy nature, in winter on cross-country or downhill skis in the nearby Severka ski resort, or simply relax and chill in the apartment.',
+        intro: '<p>Welcome to our place in the picturesque village of <b>Dolní Lomná</b>, specifically in the Novina area, located above the valley of the Lomná river at an altitude of approximately 600 m above sea level. The area is absolutely exceptional for its location near the borders of the Czech Republic, Slovakia, and Poland.</p><p>Our cottage is newly built and approved in 2024, offering you <b>quiet and luxury accommodation</b> with a breathtaking view of the valley and opposite hills in a spacious and fully equipped apartment.</p><p>Enjoy beautiful moments while hiking or cycling through the Beskydy nature, in winter on cross-country or downhill skis in the nearby Severka ski resort, or simply relax and chill in the apartment.</p>',
         welcome: {
           title: 'IMMEDIATELY UPON ARRIVAL',
           text: 'A bottle of chilled great Prosecco will be waiting for you as a welcome. For initial use, you will find several coffee capsules, tea, and condiments. Wine from South Moravian Čejkovice is available for your consumption at a great price - all in special quality late harvest or berry selection.'
@@ -216,12 +198,7 @@ export const resources = {
         description: 'We offer a luxuriously equipped apartment with breathtaking views and the possibility to use a sauna.',
         intro: 'The property offers <span class="text-gold font-bold">2 spacious, separate apartments</span>, each with its own bathroom and facilities.',
         layout: {
-          living: '1 living room with kitchen and access to the terrace',
-          bedrooms: {
-            title: '2 bedrooms:',
-            room1: '1st room - 1x double bed, 1x single bed',
-            room2: '2nd room - 1x double bed, 1x bunk bed for children'
-          }
+          text: '<ul><li><b>1 living room with kitchen and access to the terrace</b></li><li><b>2 bedrooms:</b><br>1st room - 1x double bed, 1x single bed<br>2nd room - 1x double bed, 1x bunk bed for children</li></ul>'
         },
         features: {
           capacity: 'Up to 7 people',
@@ -234,12 +211,7 @@ export const resources = {
           title: 'FACILITIES AND SERVICES',
           viewGallery: 'View gallery',
           viewMorePhotos: 'View more photos',
-          blocks: [
-            'Directly from the living area there is access to the east-oriented terrace, equipped with cafe sets for your coffee or a glass of your favorite drink. The living room is equipped with a 139 cm flat-screen TV with satellite reception. The terrace offers a breathtaking view of the entire panorama of this part of the Beskydy.',
-            'The apartment kitchen is fully equipped with dishes and dining service for 7 people. The modern kitchen includes a large refrigerator with a separate freezer, dishwasher, induction hob, baking and microwave oven, electric kettle, and Nespresso capsule coffee machine.',
-            'The bedrooms are covered with quality bed linen, in the bathrooms you will find plenty of towels and bath towels. Basic cleaning products are also available (dish soap, dishwasher tablets, kitchen sponges, tea towels, etc.).',
-            'A hairdryer, shampoo, soap, and toilet paper are prepared in the bathroom for your comfort. In the garage of the property, it is possible to safely place and charge your electric bikes.'
-          ]
+          text: '<p>Directly from the living area there is access to the east-oriented terrace, equipped with cafe sets for your coffee or a glass of your favorite drink. The living room is equipped with a 139 cm flat-screen TV with satellite reception. The terrace offers a breathtaking view of the entire panorama of this part of the Beskydy.</p><p>The apartment kitchen is fully equipped with dishes and dining service for 7 people. The modern kitchen includes a large refrigerator with a separate freezer, dishwasher, induction hob, baking and microwave oven, electric kettle, and Nespresso capsule coffee machine.</p><p>The bedrooms are covered with quality bed linen, in the bathrooms you will find plenty of towels and bath towels. Basic cleaning products are also available (dish soap, dishwasher tablets, kitchen sponges, tea towels, etc.).</p><p>A hairdryer, shampoo, soap, and toilet paper are prepared in the bathroom for your comfort. In the garage of the property, it is possible to safely place and charge your electric bikes.</p>'
         },
         pricing: {
           title: 'Accommodation Price List',
@@ -271,11 +243,7 @@ export const resources = {
             details: 'Entire cottage, both apartments, week',
             footer: 'The price includes electricity, cleaning, local fees, and 2x entry to the Finnish sauna.'
           },
-          notes: [
-            '* The price does not include charging for electric/hybrid vehicles.',
-            '* STRICT PROHIBITION OF SMOKING in all indoor areas. PETS ARE NOT ALLOWED.',
-            '* The cottage is located in the Beskydy Protected Landscape Area, please be considerate of nature, neighbors, and the environment (waste sorting)'
-          ]
+          notesText: '<p>* The price does not include charging for electric/hybrid vehicles.</p><p>* STRICT PROHIBITION OF SMOKING in all indoor areas. PETS ARE NOT ALLOWED.</p><p>* The cottage is located in the Beskydy Protected Landscape Area, please be considerate of nature, neighbors, and the environment (waste sorting)</p>'
         }
       },
       booking: {
@@ -342,6 +310,11 @@ export const resources = {
   }
 };
 
+export const defaultTranslations: { cs: Record<string, any>; en: Record<string, any> } = {
+  cs: resources.cs.translation,
+  en: resources.en.translation,
+};
+
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
@@ -352,5 +325,13 @@ i18n
       escapeValue: false
     }
   });
+
+fetch('/api/translations')
+  .then(r => r.json())
+  .then((overrides: { cs?: Record<string, any>; en?: Record<string, any> }) => {
+    if (overrides.cs) i18n.addResourceBundle('cs', 'translation', overrides.cs, true, true);
+    if (overrides.en) i18n.addResourceBundle('en', 'translation', overrides.en, true, true);
+  })
+  .catch(() => {});
 
 export default i18n;

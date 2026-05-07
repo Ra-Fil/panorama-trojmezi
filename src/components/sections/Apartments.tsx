@@ -4,6 +4,7 @@ import { motion } from 'motion/react';
 import { Users, Maximize, Wifi, Waves, Layout, Image as ImageIcon } from 'lucide-react';
 import { Section } from '../ui/Section';
 import { Heading } from '../ui/Heading';
+import { sanitizeHtml } from '../../lib/utils';
 
 interface ApartmentsProps {
   onViewGallery?: () => void;
@@ -54,21 +55,11 @@ export const Apartments: React.FC<ApartmentsProps> = ({ onViewGallery }) => {
                 <span className="border-b border-transparent group-hover/link:border-gold/30 transition-colors pb-0.5">{t('apartments.facilities.viewMorePhotos')}</span>
               </button>
             </motion.div>
-            <p className="text-ink/80 leading-relaxed font-sans text-xl" dangerouslySetInnerHTML={{ __html: t('apartments.intro') }} />
-            <div className="mt-8 space-y-2 text-ink/80 text-lg">
-              <p className="flex items-start gap-3">
-                <span className="text-gold font-bold min-w-[24px]">•</span>
-                <span><span className="text-ink font-bold">{t('apartments.layout.living')}</span></span>
-              </p>
-              <p className="flex items-start gap-3">
-                <span className="text-gold font-bold min-w-[24px]">•</span>
-                <span>
-                  <span className="text-ink font-bold">{t('apartments.layout.bedrooms.title')}</span><br/>
-                  <span className="opacity-90">{t('apartments.layout.bedrooms.room1')}</span><br/>
-                  <span className="opacity-90">{t('apartments.layout.bedrooms.room2')}</span>
-                </span>
-              </p>
-            </div>
+            <p className="text-ink/80 leading-relaxed font-sans text-lg" dangerouslySetInnerHTML={{ __html: sanitizeHtml(t('apartments.intro')) }} />
+            <div
+              className="rich-text mt-8 text-ink/80 text-lg [&_ul]:space-y-2"
+              dangerouslySetInnerHTML={{ __html: sanitizeHtml(t('apartments.layout.text')) }}
+            />
             <div className="clear-both" />
           </div>
 
@@ -102,11 +93,10 @@ export const Apartments: React.FC<ApartmentsProps> = ({ onViewGallery }) => {
                 {t('apartments.facilities.title')}
               </h3>
             </div>
-            <div className="text-ink/80 font-sans leading-relaxed text-lg space-y-6">
-              {(t('apartments.facilities.blocks', { returnObjects: true }) as string[]).map((block, idx) => (
-                <p key={idx}>{block}</p>
-              ))}
-            </div>
+            <div
+              className="rich-text text-ink/80 font-sans leading-relaxed text-lg [&>p]:mb-6 [&>p:last-child]:mb-0 [&>ul]:mb-6 [&>ol]:mb-6 [&_li]:mb-1"
+              dangerouslySetInnerHTML={{ __html: sanitizeHtml(t('apartments.facilities.text')) }}
+            />
           </div>
 
           {/* Pricing Section */}
@@ -188,7 +178,7 @@ export const Apartments: React.FC<ApartmentsProps> = ({ onViewGallery }) => {
 
               {/* General Info */}
               <div className="py-4">
-                <p className="text-ink/80 font-sans leading-relaxed text-lg" dangerouslySetInnerHTML={{ __html: t('apartments.pricing.footer') }} />
+                <p className="text-ink/80 font-sans leading-relaxed text-lg" dangerouslySetInnerHTML={{ __html: sanitizeHtml(t('apartments.pricing.footer')) }} />
               </div>
 
               {/* Holidays */}
@@ -212,11 +202,10 @@ export const Apartments: React.FC<ApartmentsProps> = ({ onViewGallery }) => {
                 </div>
               </div>
 
-              <div className="flex flex-col gap-3 text-ink/40 text-s italic">
-                {(t('apartments.pricing.notes', { returnObjects: true }) as string[]).map((note, idx) => (
-                  <p key={idx}>{note}</p>
-                ))}
-              </div>
+              <div
+                className="text-ink text-sm italic [&>p]:mb-2 [&>p:last-child]:mb-0"
+                dangerouslySetInnerHTML={{ __html: sanitizeHtml(t('apartments.pricing.notesText')) }}
+              />
             </div>
           </div>
         </div>

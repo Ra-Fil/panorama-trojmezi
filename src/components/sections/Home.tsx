@@ -3,14 +3,14 @@ import { useTranslation } from 'react-i18next';
 import { Hero } from './Hero';
 import { Section } from '../ui/Section';
 import { Heading } from '../ui/Heading';
+import { sanitizeHtml } from '../../lib/utils';
 
 interface HomeProps {
   onInquiryNow: () => void;
-  onViewTips: () => void;
   onBooking: () => void;
 }
 
-export const Home: React.FC<HomeProps> = ({ onInquiryNow, onViewTips, onBooking }) => {
+export const Home: React.FC<HomeProps> = ({ onInquiryNow, onBooking }) => {
   const { t } = useTranslation();
 
   return (
@@ -40,9 +40,7 @@ export const Home: React.FC<HomeProps> = ({ onInquiryNow, onViewTips, onBooking 
               <header>
                 <h2 className="sr-only">O Panorama Trojmezí</h2>
               </header>
-              <p className="text-ink/80 font-sans leading-relaxed text-lg mb-8" dangerouslySetInnerHTML={{ __html: t('about.intro1') }} />
-              <p className="text-ink/80 font-sans leading-relaxed text-lg mb-8" dangerouslySetInnerHTML={{ __html: t('about.intro2') }} />
-              <p className="text-ink/80 font-sans leading-relaxed text-lg" dangerouslySetInnerHTML={{ __html: t('about.intro3') }} />
+              <div className="rich-text text-ink/80 font-sans leading-relaxed text-lg [&>p]:mb-8 [&>p:last-child]:mb-0 [&>ul]:mb-8 [&>ol]:mb-8 [&_li]:mb-2" dangerouslySetInnerHTML={{ __html: sanitizeHtml(t('about.intro')) }} />
             </div>
             <div className="clear-both" />
           </article>
@@ -69,7 +67,7 @@ export const Home: React.FC<HomeProps> = ({ onInquiryNow, onViewTips, onBooking 
                   </h3>
                 </header>
                 <div className="text-ink/80 font-sans leading-relaxed text-lg max-w-7xl">
-                  <p dangerouslySetInnerHTML={{ __html: t('about.sauna.text') }} />
+                  <p dangerouslySetInnerHTML={{ __html: sanitizeHtml(t('about.sauna.text')) }} />
                 </div>
               </article>
             </div>

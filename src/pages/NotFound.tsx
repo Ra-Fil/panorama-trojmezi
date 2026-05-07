@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Home, ArrowLeft } from 'lucide-react';
+import { Home } from 'lucide-react';
 
 const NotFound: React.FC = () => {
   const { t } = useTranslation();

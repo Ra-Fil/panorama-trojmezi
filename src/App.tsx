@@ -6,6 +6,7 @@ import { Footer } from './components/layout/Footer';
 import { SEO } from './components/layout/SEO';
 import { useNavigation } from './hooks/use-navigation';
 import { BackToTop } from './components/ui/BackToTop';
+import { CookieBanner } from './components/ui/CookieBanner';
 import './i18n';
 
 // Senior Pattern: Loading component for Suspense
@@ -22,10 +23,17 @@ const Tips = lazy(() => import('./components/sections/Tips').then(m => ({ defaul
 const Booking = lazy(() => import('./components/sections/Booking').then(m => ({ default: m.Booking })));
 const Contact = lazy(() => import('./components/sections/Contact').then(m => ({ default: m.Contact })));
 const NotFound = lazy(() => import('./pages/NotFound'));
+const Admin = lazy(() => import('./pages/Admin'));
 
 // Sub-components as lazy as they are used in Home but were separate in original App
 const PropertyGallery = lazy(() => import('./components/sections/PropertyGallery').then(m => ({ default: m.PropertyGallery })));
 const Reviews = lazy(() => import('./components/sections/Reviews').then(m => ({ default: m.Reviews })));
+
+const CookieBannerGuard = () => {
+  const { pathname } = useLocation();
+  if (pathname === '/admin') return null;
+  return <CookieBanner />;
+};
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -56,7 +64,7 @@ const AppRoutes = () => {
         <Route path="/" element={
           <MainLayout>
             <main>
-              <section id="home" className="w-full"><Home onInquiryNow={() => handleSectionChange('contact')} onViewTips={() => handleSectionChange('tips')} onBooking={() => handleSectionChange('booking')} /></section>
+              <section id="home" className="w-full"><Home onInquiryNow={() => handleSectionChange('contact')} onBooking={() => handleSectionChange('booking')} /></section>
               <section id="apartments" className="w-full"><Apartments onViewGallery={() => handleSectionChange('gallery')} /></section>
               <section id="gallery" className="w-full"><PropertyGallery /></section>
               <section id="tips" className="w-full"><Tips /></section>
@@ -66,6 +74,7 @@ const AppRoutes = () => {
             </main>
           </MainLayout>
         } />
+        <Route path="/admin" element={<Admin />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Suspense>
@@ -80,6 +89,7 @@ export default function App() {
         <ScrollToTop />
         <AppRoutes />
         <BackToTop />
+        <CookieBannerGuard />
       </Router>
     </HelmetProvider>
   );

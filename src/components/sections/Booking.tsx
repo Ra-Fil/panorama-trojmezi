@@ -15,45 +15,8 @@ export const Booking: React.FC<BookingProps> = ({
 }) => {
   const { t } = useTranslation();
 
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    // Inject the external script for calendar resizing
-    const script = document.createElement('script');
-    script.src = "https://obsazenost.e-chalupy.cz/resize.js";
-    script.async = true;
-    document.body.appendChild(script);
-
-    const checkMobile = () => setIsMobile(window.innerWidth < 1024);
-    checkMobile();
-    window.addEventListener('resize', checkMobile);
-
-    const handleMessage = (e: MessageEvent) => {
-      if (e.origin !== 'https://obsazenost.e-chalupy.cz') return;
-      try {
-        const data = typeof e.data === 'string' ? JSON.parse(e.data) : e.data;
-        if (data.id === 'echalupy-kalendar' && data.height) {
-          const iframe = document.getElementById('echalupy-kalendar');
-          if (iframe) {
-            iframe.style.height = `${data.height}px`;
-          }
-        }
-      } catch (err) {
-        // Ignore parsing errors from other messages
-      }
-    };
-
-    window.addEventListener('message', handleMessage);
-
-    return () => {
-      // Cleanup
-      window.removeEventListener('resize', checkMobile);
-      window.removeEventListener('message', handleMessage);
-      if (document.body.contains(script)) {
-        document.body.removeChild(script);
-      }
-    };
-  }, []);
+  const [isMobile, setIsMobile] = useState(() => window.innerWidth < 1024);
+  const [scriptError, setScriptError] = useState(false);
 
   // Calculate dynamic size based on window width to make months "responsive"
   const getVelikost = () => {
@@ -63,19 +26,53 @@ export const Booking: React.FC<BookingProps> = ({
     return 6;
   };
 
-  const [velikost, setVelikost] = useState(getVelikost());
+  const [velikost, setVelikost] = useState(getVelikost);
 
   useEffect(() => {
-    const handleResize = () => setVelikost(getVelikost());
+    const script = document.createElement('script');
+    script.src = "https://obsazenost.e-chalupy.cz/resize.js";
+    script.async = true;
+    script.onerror = () => setScriptError(true);
+    document.body.appendChild(script);
+
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 1024);
+      setVelikost(getVelikost());
+    };
     window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+
+    const handleMessage = (e: MessageEvent) => {
+      if (e.origin !== 'https://obsazenost.e-chalupy.cz') return;
+      try {
+        const data = typeof e.data === 'string' ? JSON.parse(e.data) : e.data;
+        if (data.id === 'echalupy-kalendar' && data.height) {
+          const iframe = document.getElementById('echalupy-kalendar');
+          if (iframe) {
+            (iframe as HTMLElement).style.height = `${data.height}px`;
+          }
+        }
+      } catch {
+        // Ignore parsing errors from other messages
+      }
+    };
+
+    window.addEventListener('message', handleMessage);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+      window.removeEventListener('message', handleMessage);
+      if (document.body.contains(script)) {
+        document.body.removeChild(script);
+      }
+    };
   }, []);
 
   const sloupce = isMobile ? 12 : 4;
-  const calendarUrl = `https://obsazenost.e-chalupy.cz/kalendar.php?id=22814&pocetMesicu=12&velikost=${velikost}&legenda=ne&vybraneMesice=&naStred=ne&ctvrtleti=ne&sloupce=${sloupce}&stin=ne&jazyk=cz&jednotky=ano&idJednotky=1&vypisJednotky=ne&souhrnny=&pozadi=ffffff&kalendarText=1a1a1a&kalendarPozadi=ffffff&ramecek=f3f3f3&mesicText=ffffff&mesicPozadi=c5a059&dnyText=1a1a1a&dnyPozadia=ffffff&obsazenoText=ffffff&obsazenoPozadi=c5a059&volnoText=1a1a1a&volnoPozadi=ffffff&castecneText=ffffff&castecnePozadi=e2c99a&neaktivniDnyText=999999&neaktivniDnyPozadi=ffffff&legendaText=1a1a1a&fontFamily=Inter,sans-serif&extCss=`;
+  const naStred = isMobile ? 'ne' : 'ano';
+  const calendarUrl = `https://obsazenost.e-chalupy.cz/kalendar.php?id=22814&pocetMesicu=12&velikost=${velikost}&legenda=ne&vybraneMesice=&naStred=${naStred}&ctvrtleti=ne&sloupce=${sloupce}&stin=ne&jazyk=cz&jednotky=ano&idJednotky=1&vypisJednotky=ne&souhrnny=&pozadi=ffffff&kalendarText=1a1a1a&kalendarPozadi=ffffff&ramecek=f3f3f3&mesicText=ffffff&mesicPozadi=c5a059&dnyText=1a1a1a&dnyPozadia=ffffff&obsazenoText=ffffff&obsazenoPozadi=c5a059&volnoText=1a1a1a&volnoPozadi=ffffff&castecneText=ffffff&castecnePozadi=e2c99a&neaktivniDnyText=999999&neaktivniDnyPozadi=ffffff&legendaText=1a1a1a&fontFamily=Inter,sans-serif&extCss=`;
 
   return (
-    <Section bg="paper" id="booking" fullWidth={true} className={cn(hideHeader && "bg-transparent py-8 px-0")}>
+    <Section bg="paper" id="booking" className={cn(hideHeader && "bg-transparent py-8 px-0")}>
       {!hideHeader && (
         <Heading>{t('booking.title')}</Heading>
       )}
