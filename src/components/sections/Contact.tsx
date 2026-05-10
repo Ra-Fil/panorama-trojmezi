@@ -61,7 +61,7 @@ export const Contact: React.FC = () => {
               className="h-[400px] md:h-[550px] rounded-3xl overflow-hidden shadow-sm border border-gold/10 bg-gray-100 relative group"
             >
               <iframe 
-                src="https://maps.google.com/maps?q=Dolní+Lomná+347,+739+91,+Czech+Republic&z=16&output=embed"
+                src="https://maps.google.com/maps?q=Dolní+Lomná+347,+739+91,+Czech+Republic&z=13&output=embed"
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 
