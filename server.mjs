@@ -146,7 +146,7 @@ async function startServer() {
     app.use(express.json({ limit: "1mb" }));
 
     app.post("/api/login", (req, res) => {
-      const ip = req.headers["x-forwarded-for"]?.split(",")[0].trim() ?? req.socket.remoteAddress ?? "unknown";
+      const ip = req.headers["x-forwarded-for"]?.split(",")[0].trim() ?? req.headers["x-real-ip"] ?? req.socket.remoteAddress ?? "unknown";
 
       if (!checkRateLimit(ip)) {
         res.status(429).json({ error: "Too many attempts. Try again in 15 minutes." });
