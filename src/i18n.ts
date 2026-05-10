@@ -162,7 +162,7 @@ export const resources = {
         gallery: 'Gallery',
         apartments: 'Apartments',
         tips: 'Tips for Trips',
-        booking: 'Booking',
+        booking: 'CHECK AVAILABILITY',
         contact: 'Contact',
         admin: 'Admin'
       },
@@ -189,7 +189,7 @@ export const resources = {
         }
       },
       gallery: {
-        title: 'Magic of Trojmezí',
+        title: 'Gallery',
         description: 'Take a look inside our cottage and let yourself be enchanted by the views from every window.',
         viewMore: 'View more photos'
       },
@@ -205,7 +205,7 @@ export const resources = {
           size: '75 m²',
           disposition: 'Apartment layout: 3 rooms + kitchenette + terrace',
           wifi: 'Free Wi-Fi',
-          sauna: 'Optional sauna access'
+          sauna: 'Sauna access'
         },
         facilities: {
           title: 'FACILITIES & SERVICES',
@@ -230,7 +230,7 @@ export const resources = {
           stays: {
             weekly: 'Weekly stay (7 nights)',
             weeklyDesc: 'Stay for up to 7 people (5 adults + 2 children)',
-            short: 'Short-term stay (3 nights)',
+            short: 'Short-term stay (3-4 nights)',
             shortDesc: 'Thu–Sun or Sun–Thu'
           },
           footer: 'The price includes electricity, water, cleaning, and local tourist fees, in addition to the fully equipped apartment. Parking and outdoor seating are also included. For weekly stays, the price includes <span class="text-gold font-bold">1 complimentary entry to the Finnish sauna</span>. Additional sauna access is available for a discounted price of CZK 500 per entry.',
