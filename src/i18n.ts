@@ -174,7 +174,7 @@ export const resources = {
         titlePrefix: 'Apartments',
         titleMain: 'PANORAMA TROJMEZÍ',
         subtitle: 'Luxury accommodation in the heart of Beskydy at the border of three countries.',
-        cta: 'Inquire About Stay'
+        cta: 'Book Your Stay'
       },
       about: {
         title: 'Accommodation',
