@@ -186,18 +186,18 @@
     },
     "about": {
       "title": "Accommodation",
-      "intro": "<p>Welcome to our place in the picturesque village of <b>Dolní Lomná</b>, specifically in the Novina area, located above the valley of the Lomná river at an altitude of approximately 600 m above sea level. The area is absolutely exceptional for its location near the borders of the Czech Republic, Slovakia, and Poland.</p><p>Our cottage is newly built and approved in 2024, offering you <b>quiet and luxury accommodation</b> with a breathtaking view of the valley and opposite hills in a spacious and fully equipped apartment.</p><p>Enjoy beautiful moments while hiking or cycling through the Beskydy nature, in winter on cross-country or downhill skis in the nearby Severka ski resort, or simply relax and chill in the apartment.</p>",
+      "intro": "<p>Nestled in the peaceful mountain village of <b>Dolní Lomná</b>, our newly built chalet offers luxurious accommodation surrounded by the beautiful nature of the Beskydy Mountains.</p><p>Located at an altitude of approximately 600 meters, the apartment provides breathtaking views of the valley and surrounding hills, creating the perfect place for relaxation in every season.</p><p>Whether you enjoy hiking, cycling, skiing, or simply unwinding in nature, you will find everything you need for a memorable stay. During winter, the nearby Severka ski resort offers excellent conditions for both downhill and cross-country skiing.</p><p>Built in 2024, the spacious apartment is fully equipped to ensure maximum comfort throughout your stay.</p>",
       "welcome": {
-        "title": "IMMEDIATELY UPON ARRIVAL",
-        "text": "A bottle of chilled great Prosecco will be waiting for you as a welcome. For initial use, you will find several coffee capsules, tea, and condiments. Wine from South Moravian Čejkovice is available for your consumption at a great price - all in special quality late harvest or berry selection."
+        "title": "REFRESHMENTS UPON ARRIVAL",
+        "text": "To welcome you, a chilled bottle of fine Prosecco will be waiting upon your arrival. You will also find coffee capsules, tea, and basic seasonings prepared for your first use. For wine lovers, premium wines from the South Moravian region of Čejkovice are available for an additional fee."
       },
       "sauna": {
         "title": "FINNISH SAUNA",
-        "text": "In the basement of the cottage there is a <b>Finnish sauna for up to 8 people</b>, which is free of charge once when booking a weekly stay. Sauna sheets are available."
+        "text": "The chalet also features a <b>Finnish sauna for up to 8 people</b>, located on the lower ground floor. Guests staying for a full week receive one complimentary sauna session. Sauna sheets are provided for your comfort."
       },
-      "intro1": "Welcome to our place in the picturesque village of <b>Dolní Lomná</b>, specifically in the Novina area, located above the valley of the Lomná river at an altitude of approximately 600 m above sea level. The area is absolutely exceptional for its location near the borders of the Czech Republic, Slovakia, and Poland.",
-      "intro2": "Our cottage is newly built and approved in 2024, offering you <b>quiet and luxury accommodation</b> with a breathtaking view of the valley and opposite hills in a spacious and fully equipped apartment.",
-      "intro3": "Enjoy beautiful moments while hiking or cycling through the Beskydy nature, in winter on cross-country or downhill skis in the nearby Severka ski resort, or simply relax and chill in the apartment."
+      "intro1": "Nestled in the peaceful mountain village of <b>Dolní Lomná</b>, our newly built chalet offers luxurious accommodation surrounded by the beautiful nature of the Beskydy Mountains.",
+      "intro2": "Located at an altitude of approximately 600 meters, the apartment provides breathtaking views of the valley and surrounding hills, creating the perfect place for relaxation in every season.",
+      "intro3": "Whether you enjoy hiking, cycling, skiing, or simply unwinding in nature, you will find everything you need for a memorable stay. During winter, the nearby Severka ski resort offers excellent conditions for both downhill and cross-country skiing."
     },
     "gallery": {
       "title": "Magic of Trojmezí",
@@ -207,33 +207,33 @@
     "apartments": {
       "title": "Apartments",
       "description": "We offer a luxuriously equipped apartment with breathtaking views and the possibility to use a sauna.",
-      "intro": "The property offers <span class=\"text-gold font-bold\">2 spacious, separate apartments</span>, each with its own bathroom and facilities.",
+      "intro": "The property offers <span class=\"text-gold font-bold\">2 spacious and separate apartments</span>, each with its own bathroom and facilities.",
       "layout": {
-        "text": "<ul><li><b>1 living room with kitchen and access to the terrace</b></li><li><b>2 bedrooms:</b><br>1st room - 1x double bed, 1x single bed<br>2nd room - 1x double bed, 1x bunk bed for children</li></ul>",
+        "text": "<ul><li><b>1 living room with kitchen and access to the terrace</b></li><li><b>2 bedrooms:</b><br>Bedroom – 1 double bed, 1 single bed<br>Bedroom – 1 double bed, 1 bunk bed for children</li></ul>",
         "living": "1 living room with kitchen and access to the terrace",
         "bedrooms": {
           "title": "2 bedrooms:",
-          "room1": "1st room - 1x double bed, 1x single bed",
-          "room2": "2nd room - 1x double bed, 1x bunk bed for children"
+          "room1": "Bedroom – 1 double bed, 1 single bed",
+          "room2": "Bedroom – 1 double bed, 1 bunk bed for children"
         }
       },
       "features": {
-        "capacity": "Up to 7 people",
+        "capacity": "Up to 7 guests",
         "size": "75 m²",
-        "disposition": "APARTMENT DISPOSITION 3+KK + TERRACE",
+        "disposition": "Apartment layout: 3 rooms + kitchenette + terrace",
         "wifi": "Free Wi-Fi",
-        "sauna": "Sauna option"
+        "sauna": "Optional sauna access"
       },
       "facilities": {
-        "title": "FACILITIES AND SERVICES",
+        "title": "FACILITIES & SERVICES",
         "viewGallery": "View gallery",
-        "viewMorePhotos": "View more photos",
-        "text": "<p>Directly from the living area there is access to the east-oriented terrace, equipped with cafe sets for your coffee or a glass of your favorite drink. The living room is equipped with a 139 cm flat-screen TV with satellite reception. The terrace offers a breathtaking view of the entire panorama of this part of the Beskydy.</p><p>The apartment kitchen is fully equipped with dishes and dining service for 7 people. The modern kitchen includes a large refrigerator with a separate freezer, dishwasher, induction hob, baking and microwave oven, electric kettle, and Nespresso capsule coffee machine.</p><p>The bedrooms are covered with quality bed linen, in the bathrooms you will find plenty of towels and bath towels. Basic cleaning products are also available (dish soap, dishwasher tablets, kitchen sponges, tea towels, etc.).</p><p>A hairdryer, shampoo, soap, and toilet paper are prepared in the bathroom for your comfort. In the garage of the property, it is possible to safely place and charge your electric bikes.</p>",
+        "viewMorePhotos": "VIEW MORE PHOTOS",
+        "text": "<p>The living area opens onto an east-facing terrace furnished with outdoor seating, perfect for enjoying your morning coffee or a glass of your favorite drink. The terrace offers panoramic views of this beautiful part of the Beskydy Mountains.</p><p>The apartment kitchen is fully equipped with cookware and dining sets for up to 8 people. The modern kitchen includes a large fridge with separate freezer, dishwasher, induction cooktop, oven, microwave, electric kettle, and a Nespresso capsule coffee machine.</p><p>The bedrooms are prepared with fresh bed linen, and the bathrooms provide plenty of towels and bath sheets. Basic cleaning supplies are also available, including dishwashing liquid, dishwasher tablets, kitchen sponges, and towels.</p><p>For your comfort, the bathroom is equipped with a hairdryer, shampoo, soap, and toilet paper. The garage offers secure storage and charging for your e-bikes.</p>",
         "blocks": [
-          "Directly from the living area there is access to the east-oriented terrace, equipped with cafe sets for your coffee or a glass of your favorite drink. The living room is equipped with a 139 cm flat-screen TV with satellite reception. The terrace offers a breathtaking view of the entire panorama of this part of the Beskydy.",
-          "The apartment kitchen is fully equipped with dishes and dining service for 7 people. The modern kitchen includes a large refrigerator with a separate freezer, dishwasher, induction hob, baking and microwave oven, electric kettle, and Nespresso capsule coffee machine.",
-          "The bedrooms are covered with quality bed linen, in the bathrooms you will find plenty of towels and bath towels. Basic cleaning products are also available (dish soap, dishwasher tablets, kitchen sponges, tea towels, etc.).",
-          "A hairdryer, shampoo, soap, and toilet paper are prepared in the bathroom for your comfort. In the garage of the property, it is possible to safely place and charge your electric bikes."
+          "The living area opens onto an east-facing terrace furnished with outdoor seating, perfect for enjoying your morning coffee or a glass of your favorite drink. The terrace offers panoramic views of this beautiful part of the Beskydy Mountains.",
+          "The apartment kitchen is fully equipped with cookware and dining sets for up to 8 people. The modern kitchen includes a large fridge with separate freezer, dishwasher, induction cooktop, oven, microwave, electric kettle, and a Nespresso capsule coffee machine.",
+          "The bedrooms are prepared with fresh bed linen, and the bathrooms provide plenty of towels and bath sheets. Basic cleaning supplies are also available, including dishwashing liquid, dishwasher tablets, kitchen sponges, and towels.",
+          "For your comfort, the bathroom is equipped with a hairdryer, shampoo, soap, and toilet paper. The garage offers secure storage and charging for your e-bikes."
         ]
       },
       "pricing": {
@@ -256,7 +256,7 @@
           "short": "Short-term stay (3 nights)",
           "shortDesc": "Thu–Sun or Sun–Thu"
         },
-        "footer": "The price includes, in addition to the fully equipped apartment, costs for electricity, water, cleaning, and local fees. Parking and outdoor seating are part of the accommodation. For a weekly stay, the price includes <span class=\"text-gold font-bold\">1x free entry to the Finnish sauna</span>, further use for a discounted price of 500 CZK/entry.",
+        "footer": "The price includes electricity, water, cleaning, and local tourist fees, in addition to the fully equipped apartment. Parking and outdoor seating are also included. For weekly stays, the price includes <span class=\"text-gold font-bold\">1 complimentary entry to the Finnish sauna</span>. Additional sauna access is available for a discounted price of CZK 500 per entry.",
         "special": {
           "title": "Special Dates 2026/2027",
           "christmas": "Christmas 2026",
@@ -266,7 +266,7 @@
           "details": "Entire cottage, both apartments, week",
           "footer": "The price includes electricity, cleaning, local fees, and 2x entry to the Finnish sauna."
         },
-        "notesText": "<p>* The price does not include charging for electric/hybrid vehicles.</p><p>* STRICT PROHIBITION OF SMOKING in all indoor areas. PETS ARE NOT ALLOWED.</p><p>* The cottage is located in the Beskydy Protected Landscape Area, please be considerate of nature, neighbors, and the environment (waste sorting)</p>"
+        "notesText": "<p>* Charging of electric or hybrid vehicles is not included in the price.</p><p>* STRICT NO SMOKING policy throughout all indoor areas. PETS ARE NOT ALLOWED.</p><p>* The chalet is located in the protected Beskydy landscape area. We kindly ask guests to respect nature, neighbors, and the environment, including waste sorting.</p>"
       }
     },
     "booking": {
