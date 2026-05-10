@@ -2,7 +2,7 @@ import express from "express";
 import path from "path";
 import { fileURLToPath } from "url";
 import fs from "fs/promises";
-import { randomBytes, scryptSync, timingSafeEqual } from "crypto";
+import { randomBytes, timingSafeEqual } from "crypto";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -12,24 +12,20 @@ const TRANSLATIONS_FILE = path.join(__dirname, "translations.json");
 // --- Credentials (required from env) ---
 
 const ADMIN_USER = process.env.ADMIN_USER?.trim();
-const ADMIN_PASS_HASH = process.env.ADMIN_PASS_HASH?.trim();
+const ADMIN_PASS = process.env.ADMIN_PASS?.trim();
 
-if (!ADMIN_USER || !ADMIN_PASS_HASH) {
-  console.error("[AUTH] ADMIN_USER and ADMIN_PASS_HASH must be set in environment.");
-  console.error("[AUTH] Run: node hash-password.mjs <password>  to generate ADMIN_PASS_HASH.");
+if (!ADMIN_USER || !ADMIN_PASS) {
+  console.error("[AUTH] ADMIN_USER and ADMIN_PASS must be set in environment.");
   process.exit(1);
 }
 
 console.log(`[AUTH] ADMIN_USER loaded (${ADMIN_USER.length} chars)`);
-console.log(`[AUTH] ADMIN_PASS_HASH format: ${ADMIN_PASS_HASH.includes(":") ? "OK (salt:hash)" : "INVALID – missing colon separator"}`);
 
 function verifyPassword(candidate) {
-  const [saltHex, hashHex] = ADMIN_PASS_HASH.split(":");
-  if (!saltHex || !hashHex) return false;
   try {
-    const derived = scryptSync(candidate, saltHex, 32);
-    const stored = Buffer.from(hashHex, "hex");
-    return derived.length === stored.length && timingSafeEqual(derived, stored);
+    const a = Buffer.from(candidate.padEnd(64).slice(0, 64));
+    const b = Buffer.from(ADMIN_PASS.padEnd(64).slice(0, 64));
+    return a.length === b.length && timingSafeEqual(a, b);
   } catch {
     return false;
   }
