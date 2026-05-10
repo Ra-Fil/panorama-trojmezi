@@ -15,10 +15,13 @@ const ADMIN_USER = process.env.ADMIN_USER?.trim();
 const ADMIN_PASS_HASH = process.env.ADMIN_PASS_HASH?.trim();
 
 if (!ADMIN_USER || !ADMIN_PASS_HASH) {
-  console.error("ADMIN_USER and ADMIN_PASS_HASH must be set in environment.");
-  console.error("Run: node hash-password.mjs <password>  to generate ADMIN_PASS_HASH.");
+  console.error("[AUTH] ADMIN_USER and ADMIN_PASS_HASH must be set in environment.");
+  console.error("[AUTH] Run: node hash-password.mjs <password>  to generate ADMIN_PASS_HASH.");
   process.exit(1);
 }
+
+console.log(`[AUTH] ADMIN_USER loaded (${ADMIN_USER.length} chars)`);
+console.log(`[AUTH] ADMIN_PASS_HASH format: ${ADMIN_PASS_HASH.includes(":") ? "OK (salt:hash)" : "INVALID – missing colon separator"}`);
 
 function verifyPassword(candidate) {
   const [saltHex, hashHex] = ADMIN_PASS_HASH.split(":");
@@ -155,19 +158,29 @@ async function startServer() {
 
       const { username, password } = req.body ?? {};
       if (typeof username !== "string" || typeof password !== "string") {
+        console.error(`[LOGIN] 400 from ${ip}: body missing username or password (keys: ${Object.keys(req.body ?? {}).join(",")})`);
         res.status(400).json({ error: "Invalid request" });
         return;
       }
 
-      const usernameMatch = timingSafeEqual(
-        Buffer.from(username.padEnd(64).slice(0, 64)),
-        Buffer.from(ADMIN_USER.padEnd(64).slice(0, 64))
-      );
+      let usernameMatch = false;
+      try {
+        usernameMatch = timingSafeEqual(
+          Buffer.from(username.padEnd(64).slice(0, 64)),
+          Buffer.from(ADMIN_USER.padEnd(64).slice(0, 64))
+        );
+      } catch (err) {
+        console.error(`[LOGIN] timingSafeEqual error: ${err}`);
+      }
 
-      if (usernameMatch && verifyPassword(password)) {
+      const passwordMatch = verifyPassword(password);
+
+      if (usernameMatch && passwordMatch) {
         resetRateLimit(ip);
+        console.log(`[LOGIN] Success from ${ip}`);
         res.json({ token: createSession() });
       } else {
+        console.error(`[LOGIN] 401 from ${ip}: got_user="${username}"(len=${username.length}) env_user_len=${ADMIN_USER.length} username_ok=${usernameMatch} password_ok=${passwordMatch}`);
         res.status(401).json({ error: "Invalid credentials" });
       }
     });
@@ -207,7 +220,7 @@ async function startServer() {
     } else {
       const distPath = path.join(__dirname, "dist");
       app.use(express.static(distPath));
-      app.get("*splat", (_req, res) => {
+      app.use((_req, res) => {
         res.sendFile(path.join(distPath, "index.html"));
       });
     }
