@@ -11,8 +11,8 @@ const TRANSLATIONS_FILE = path.join(__dirname, "translations.json");
 
 // --- Credentials (required from env) ---
 
-const ADMIN_USER = process.env.ADMIN_USER;
-const ADMIN_PASS_HASH = process.env.ADMIN_PASS_HASH;
+const ADMIN_USER = process.env.ADMIN_USER?.trim();
+const ADMIN_PASS_HASH = process.env.ADMIN_PASS_HASH?.trim();
 
 if (!ADMIN_USER || !ADMIN_PASS_HASH) {
   console.error("ADMIN_USER and ADMIN_PASS_HASH must be set in environment.");
