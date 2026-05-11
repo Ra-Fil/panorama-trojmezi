@@ -167,8 +167,8 @@ export const resources = {
         admin: 'Admin'
       },
       seo: {
-        title: 'Wake Up in the Clouds: Panorama Trojmezí | Luxury Accommodation in Beskydy',
-        description: 'Escape the ordinary. Panorama Trojmezí offers luxury apartments with private saunas and breathtaking views. Experience serenity you won\'t find anywhere else.'
+        title: 'Panorama Trojmezí | Luxury Apartments in Beskydy',
+        description: 'Accommodation with a private sauna and unforgettable views in the heart of the Beskydy Mountains.'
       },
       hero: {
         titlePrefix: 'Apartments',
