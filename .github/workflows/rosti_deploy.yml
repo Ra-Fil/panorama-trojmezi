@@ -78,6 +78,9 @@ jobs:
           EOF
           scp -o UserKnownHostsFile=./known_hosts -P $PORT rosti.nginx.conf $USER@$HOST:/srv/conf/nginx.d/app.conf
           rm rosti.nginx.conf
+      - name: Preserve translations
+        run: |
+          scp -o UserKnownHostsFile=./known_hosts -P $PORT $USER@$HOST:/srv/app/translations.json ./translations.json || true
       - name: Copy code
         run: |
           rsync -ae "ssh -o UserKnownHostsFile=./known_hosts -p $PORT" --delete-after --exclude=.git ./ $USER@$HOST:/srv/app/
