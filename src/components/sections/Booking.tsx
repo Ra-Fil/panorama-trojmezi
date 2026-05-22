@@ -69,7 +69,7 @@ export const Booking: React.FC<BookingProps> = ({
 
   const sloupce = isMobile ? 12 : 4;
   const naStred = isMobile ? 'ne' : 'ano';
-  const calendarUrl = `https://obsazenost.e-chalupy.cz/kalendar.php?id=22814&pocetMesicu=12&velikost=${velikost}&legenda=ne&vybraneMesice=&naStred=${naStred}&ctvrtleti=ne&sloupce=${sloupce}&stin=ne&jazyk=cz&jednotky=ano&idJednotky=1&vypisJednotky=ne&souhrnny=&pozadi=ffffff&kalendarText=1a1a1a&kalendarPozadi=ffffff&ramecek=f3f3f3&mesicText=ffffff&mesicPozadi=c5a059&dnyText=1a1a1a&dnyPozadia=ffffff&obsazenoText=ffffff&obsazenoPozadi=c5a059&volnoText=1a1a1a&volnoPozadi=ffffff&castecneText=ffffff&castecnePozadi=e2c99a&neaktivniDnyText=999999&neaktivniDnyPozadi=ffffff&legendaText=1a1a1a&fontFamily=Inter,sans-serif&extCss=`;
+  const calendarUrl = `https://obsazenost.e-chalupy.cz/kalendar.php?id=22814&pocetMesicu=12&velikost=${velikost}&legenda=ne&vybraneMesice=&naStred=${naStred}&ctvrtleti=ne&sloupce=${sloupce}&stin=ne&jazyk=cz&jednotky=ano&idJednotky=1&vypisJednotky=ne&souhrnny=&pozadi=ffffff&kalendarText=1a1a1a&kalendarPozadi=ffffff&ramecek=f3f3f3&mesicText=ffffff&mesicPozadi=c5a059&dnyText=1a1a1a&dnyPozadia=ffffff&obsazenoText=ffffff&obsazenoPozadi=8b6520&volnoText=1a1a1a&volnoPozadi=ffffff&castecneText=ffffff&castecnePozadi=c5a059&neaktivniDnyText=999999&neaktivniDnyPozadi=ffffff&legendaText=1a1a1a&fontFamily=Inter,sans-serif&extCss=`;
 
   return (
     <Section bg="paper" id="booking" className={cn(hideHeader && "bg-transparent py-8 px-0")}>
@@ -105,11 +105,11 @@ export const Booking: React.FC<BookingProps> = ({
                   <span className="text-ink/60 text-sm font-sans">{t('booking.legend.free')}</span>
                 </div>
                 <div className="flex items-center gap-2 shrink-0">
-                  <div className="w-4 h-4 rounded-sm bg-[#e2c99a]" />
+                  <div className="w-4 h-4 rounded-sm bg-[#c5a059]" />
                   <span className="text-ink/60 text-sm font-sans">{t('booking.legend.oneApartment')}</span>
                 </div>
                 <div className="flex items-center gap-2 shrink-0">
-                  <div className="w-4 h-4 rounded-sm bg-[#c5a059]" />
+                  <div className="w-4 h-4 rounded-sm bg-[#8b6520]" />
                   <span className="text-ink/60 text-sm font-sans">{t('booking.legend.full')}</span>
                 </div>
               </div>
