@@ -121,7 +121,7 @@ async function startServer(): Promise<void> {
             "font-src 'self' https://fonts.gstatic.com",
             "img-src 'self' data: blob:",
             "frame-src https://obsazenost.e-chalupy.cz https://www.google.com https://maps.google.com",
-            "connect-src 'self'",
+            "connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com",
             "object-src 'none'",
             "base-uri 'self'",
             "form-action 'self'",
