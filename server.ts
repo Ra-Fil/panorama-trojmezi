@@ -116,7 +116,7 @@ async function startServer(): Promise<void> {
       const csp = isProd
         ? [
             "default-src 'self'",
-            "script-src 'self' https://obsazenost.e-chalupy.cz",
+            "script-src 'self' 'unsafe-inline' https://obsazenost.e-chalupy.cz https://www.googletagmanager.com https://www.google-analytics.com",
             "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
             "font-src 'self' https://fonts.gstatic.com",
             "img-src 'self' data: blob:",

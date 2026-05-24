@@ -201,7 +201,9 @@ export default function AdminPage() {
   useEffect(() => {
     if (!isLoggedIn) return;
     setLoading(true);
-    fetch('/api/translations')
+    fetch('/api/translations', {
+      headers: { Authorization: `Bearer ${token}` },
+    })
       .then(r => r.json())
       .then((overrides: Partial<TranslationData>) => {
         const merged: TranslationData = {
