@@ -392,8 +392,49 @@ export default function AdminPage() {
           <RichField label="Úvodní text" value={get('apartments.intro')} onChange={v => set('apartments.intro', v)} langKey={langKey('apartments.intro')} />
           <RichField label="Odrážky" value={get('apartments.layout.text')} onChange={v => set('apartments.layout.text', v)} langKey={langKey('apartments.layout.text')} />
           <RichField label="——— VYBAVENÍ A SLUŽBY" value={get('apartments.facilities.text')} onChange={v => set('apartments.facilities.text', v)} langKey={langKey('apartments.facilities.text')} />
+        </SectionBlock>
+
+        {/* Ceník ubytování */}
+        <SectionBlock label="Apartmány — Ceník ubytování" open={openSection === 'pricing'} onToggle={() => toggle('pricing')}>
+          <PlainField label="Název sekce" value={get('apartments.pricing.title')} onChange={v => set('apartments.pricing.title', v)} multiline={false} />
+
+          <div className="border-t border-gray-100 pt-4 space-y-4">
+            <p className="text-xs text-gold uppercase tracking-widest font-bold">Hlavní sezóna</p>
+            <PlainField label="Název" value={get('apartments.pricing.highSeason.title')} onChange={v => set('apartments.pricing.highSeason.title', v)} multiline={false} />
+            <PlainField label="Termíny" value={get('apartments.pricing.highSeason.dates')} onChange={v => set('apartments.pricing.highSeason.dates', v)} multiline={false} />
+            <PlainField label="Cena – týdenní pobyt" value={get('apartments.pricing.highSeason.weeklyPrice')} onChange={v => set('apartments.pricing.highSeason.weeklyPrice', v)} multiline={false} />
+            <PlainField label="Cena – krátkodobý pobyt" value={get('apartments.pricing.highSeason.shortPrice')} onChange={v => set('apartments.pricing.highSeason.shortPrice', v)} multiline={false} />
+          </div>
+
+          <div className="border-t border-gray-100 pt-4 space-y-4">
+            <p className="text-xs text-gold uppercase tracking-widest font-bold">Vedlejší sezóna</p>
+            <PlainField label="Název" value={get('apartments.pricing.lowSeason.title')} onChange={v => set('apartments.pricing.lowSeason.title', v)} multiline={false} />
+            <PlainField label="Termíny" value={get('apartments.pricing.lowSeason.dates')} onChange={v => set('apartments.pricing.lowSeason.dates', v)} multiline={false} />
+            <PlainField label="Cena – týdenní pobyt" value={get('apartments.pricing.lowSeason.weeklyPrice')} onChange={v => set('apartments.pricing.lowSeason.weeklyPrice', v)} multiline={false} />
+            <PlainField label="Cena – krátkodobý pobyt" value={get('apartments.pricing.lowSeason.shortPrice')} onChange={v => set('apartments.pricing.lowSeason.shortPrice', v)} multiline={false} />
+          </div>
+
+          <div className="border-t border-gray-100 pt-4 space-y-4">
+            <p className="text-xs text-gold uppercase tracking-widest font-bold">Popisky typů pobytu</p>
+            <PlainField label="Týdenní pobyt – název" value={get('apartments.pricing.stays.weekly')} onChange={v => set('apartments.pricing.stays.weekly', v)} multiline={false} />
+            <PlainField label="Týdenní pobyt – popis" value={get('apartments.pricing.stays.weeklyDesc')} onChange={v => set('apartments.pricing.stays.weeklyDesc', v)} multiline={false} />
+            <PlainField label="Krátkodobý pobyt – název" value={get('apartments.pricing.stays.short')} onChange={v => set('apartments.pricing.stays.short', v)} multiline={false} />
+            <PlainField label="Krátkodobý pobyt – popis" value={get('apartments.pricing.stays.shortDesc')} onChange={v => set('apartments.pricing.stays.shortDesc', v)} multiline={false} />
+          </div>
+
           <RichField label="Poznámka k ceníku" value={get('apartments.pricing.footer')} onChange={v => set('apartments.pricing.footer', v)} langKey={langKey('apartments.pricing.footer')} />
-          <PlainField label="Speciální termíny" value={get('apartments.pricing.special.footer')} onChange={v => set('apartments.pricing.special.footer', v)} />
+
+          <div className="border-t border-gray-100 pt-4 space-y-4">
+            <p className="text-xs text-gold uppercase tracking-widest font-bold">Speciální termíny</p>
+            <PlainField label="Název sekce" value={get('apartments.pricing.special.title')} onChange={v => set('apartments.pricing.special.title', v)} multiline={false} />
+            <PlainField label="Vánoce – název" value={get('apartments.pricing.special.christmas')} onChange={v => set('apartments.pricing.special.christmas', v)} multiline={false} />
+            <PlainField label="Vánoce – cena" value={get('apartments.pricing.special.christmasPrice')} onChange={v => set('apartments.pricing.special.christmasPrice', v)} multiline={false} />
+            <PlainField label="Silvestr – název" value={get('apartments.pricing.special.silvestr')} onChange={v => set('apartments.pricing.special.silvestr', v)} multiline={false} />
+            <PlainField label="Silvestr – cena" value={get('apartments.pricing.special.silvestrPrice')} onChange={v => set('apartments.pricing.special.silvestrPrice', v)} multiline={false} />
+            <PlainField label="Popis (pod cenami)" value={get('apartments.pricing.special.details')} onChange={v => set('apartments.pricing.special.details', v)} multiline={false} />
+            <PlainField label="Poznámka" value={get('apartments.pricing.special.footer')} onChange={v => set('apartments.pricing.special.footer', v)} />
+          </div>
+
           <RichField label="Poznámky (dole pod ceníkem)" value={get('apartments.pricing.notesText')} onChange={v => set('apartments.pricing.notesText', v)} langKey={langKey('apartments.pricing.notesText')} />
         </SectionBlock>
 
