@@ -21,14 +21,14 @@
     },
     "about": {
       "title": "Ubytování",
-      "intro": "<p>Vítejte u nás, v malebné vesnici <b>Dolní Lomná</b>, konkrétně v části Novina, která se nachází nad údolím stejnojmenné říčky Lomné v nadmořské výšce cca 600 m.n.m. Oblast je naprosto výjimečná svou polohou v blízkosti státních hranic mezi Českou a Slovenskou republikou a Polskem.</p><p>Naše chalupa je novostavba zkolaudovaná v roce 2024 a nabídne Vám <b>klidné a luxusní ubytování</b> s dechberoucím výhledem na údolí a protější kopce v prostorném a plně vybaveném apartmánu.</p><p>Užijte si krásné chvíle při pěších či cyklo toulkách beskydskou přírodou, v zimním období na běžkách či sjezdovkách v nedalekém lyžařském areálu Severka či odpočinek a pohodu v apartmánu.</p>",
+      "intro": "<p>Vítejte u nás, v malebné vesničce&nbsp;<b>Dolní Lomná</b>, konkrétně v její části Novina, která se nachází nad údolím stejnojmenné říčky Lomné v nadmořské výšce cca 600 m.n.m. Poloha je výjimečná blízkostí státních hranic mezi Českou a Slovenskou republikou a Polskem.</p><p>Naše chalupa je novostavba zkolaudovaná v roce 2024 a nabídne Vám <b>klidné a luxusní ubytování</b> s dechberoucím výhledem na údolí a protější kopce v prostorném a plně vybaveném apartmánu.</p><p>Užijte si krásné chvíle při pěších či cyklo toulkách beskydskou přírodou, v zimním období na běžkách či sjezdovkách v nedalekém lyžařském areálu Severka či odpočinek a pohodu v apartmánu.</p>",
       "welcome": {
         "title": "IHNED PO PŘÍJEZDU",
-        "text": "Na přivítanou na Vás bude čekat láhev vychlazeného skvělého Prosecca. Pro prvotní využití naleznete několik ks kávových kapslí, čaj, dochucovadla. K Vaší případné spotřebě je za poplatek k dispozici víno z jihomoravských Čejkovic za skvělou cenu - vše v přívlastkové kvalitě pozdní sběr nebo výběr z bobulí."
+        "text": "Na přivítanou na Vás bude čekat láhev skvělého Prosecca. Pro prvotní využití naleznete několik ks kávových kapslí, čaj, dochucovadla. K Vaší případné spotřebě je za poplatek k dispozici víno z jihomoravských Čejkovic za skvělou cenu - vše v přívlastkové kvalitě pozdní sběr nebo výběr z bobulí."
       },
       "sauna": {
         "title": "FINSKÁ SAUNA",
-        "text": "V suterénu chalupy se nachádza <b>finská sauna až pro 8 osob</b>, která je při rezervaci týdenního pobytu 1x zdarma. K dispozici jsou saunová prostěradla."
+        "text": "V suterénu chalupy se nachází&nbsp;<b>finská sauna až pro 8 osob</b>, která je při rezervaci týdenního pobytu 1x zdarma. K dispozici jsou saunová prostěradla."
       },
       "intro1": "Vítejte u nás, v malebné vesnici <b>Dolní Lomná</b>, konkrétně v části Novina, která se nachází nad údolím stejnojmenné říčky Lomné v nadmořské výšce cca 600 m.n.m. Oblast je naprosto výjimečná svou polohou v blízkosti státních hranic mezi Českou a Slovenskou republikou a Polskem.<div><br></div><div>111</div>",
       "intro2": "Naše chalupa je novostavba zkolaudovaná v roce 2024 a nabídne Vám <b>klidné a luxusní ubytování</b> s dechberoucím výhledem na údolí a protější kopce v prostorném a plně vybaveném apartmánu.",
@@ -41,7 +41,7 @@
     "apartments": {
       "title": "Apartmány",
       "description": "Místo pro každého, kdo si potřebuje vyčistit hlavu.",
-      "intro": "Objekt nabízí <span class=\"text-gold font-bold\">2 prostorné samostatné a oddělené apartmány</span>, každý s vlastní koupelnou a zázemím.<p></p>",
+      "intro": "Objekt nabízí <span class=\"text-gold font-bold\">2 samostatné apartmány</span>, každý s vlastní koupelnou a zázemím.<p></p>",
       "layout": {
         "text": "<ul><li><b>1 obývací pokoj s kuchyní a východem na terasu</b></li><li><b>2 ložnice:</b><br>1. pokoj - 1x manželská postel, 1x jednolůžko<br>2. pokoj - 1x manželská postel, 1x patrová postel pro děti</li></ul>",
         "living": "1 obývací pokoj s kuchyní a východem na terasu",
@@ -62,7 +62,7 @@
         "title": "VYBAVENÍ A SLUŽBY",
         "viewGallery": "Prohlédnout fotogalerii",
         "viewMorePhotos": "Prohlédnout více fotografií",
-        "text": "<p>Přímo z obývacího prostoru se vychází na terasu orientovanou na východ, vybavenou kavárenskými sety pro vaše posezení u kávy či sklenky oblíbeného nápoje. Obývací pokoj je vybaven plochou TV 139 cm se satelitním příjmem. Terasa nabízí výhled na celé panorama této části Beskyd.</p><p>Kuchyně apartmánu je plně vybavena nádobím a jídelním servisem pro 8 osob. Součástí moderní kuchyňské linky je velká lednice se samostatným mrazákem, myčka nádobí, indukční deska, pečící i mikrovlnná trouba, rychlovarná konvice a kapslový kávovar Nespresso.</p><p>Ložnice jsou povlečeny ložním prádlem, v koupelnách naleznete dostatek ručníků a osušek. K dispozici jsou také základní čistící a úklidové prostředky (jar, tablety do myčky, kuchyňské houbičky, utěrky apod.).</p><p>V koupelně je pro vaše pohodlí připraven fén, šampon, mýdlo a toaletní papír. V garáži objektu je možné bezpečně umístit a nabíjet vaše elektrokola.</p>",
+        "text": "<p>Přímo z obývacího prostoru se vychází na terasu orientovanou na východ, vybavenou kavárenskými sety pro vaše posezení u kávy či sklenky oblíbeného nápoje. Obývací pokoj je vybaven TV s úhlopříčkou 139 cm se satelitním příjmem. Terasa nabízí výhled na celé panorama této části Beskyd.</p><p>Kuchyně apartmánu je plně vybavena nádobím a jídelním servisem pro 8 osob. Součástí moderní kuchyňské linky je velká lednice se samostatným mrazákem, myčka nádobí, indukční deska, pečící i mikrovlnná trouba, rychlovarná konvice a kapslový kávovar Nespresso. K dispozici jsou také základní čistící a úklidové prostředky (jar, tablety do myčky, kuchyňské houbičky, utěrky apod.).</p><p>Postele v ložnicích jsou povlečené ložním prádlem. V koupelnách naleznete dostatek ručníků a osušek, fén, šampon, mýdlo a toaletní papír.&nbsp;</p><p>V garáži objektu je možné umístit a nabíjet vaše elektrokola.</p>",
         "blocks": [
           "Přímo z obývacího prostoru se vychází na terasu orientovanou na východ, vybavenou kavárenskými sety pro vaše posezení u kávy či sklenky oblíbeného nápoje. Obývací pokoj je vybaven plochou TV 139 cm se satelitním příjmem. Terasa nabízí výhled na celé panorama této části Beskyd.",
           "Kuchyně apartmánu je plně vybavena nádobím a jídelním servisem pro 8 osob. Součástí moderní kuchyňské linky je velká lednice se samostatným mrazákem, myčka nádobí, indukční deska, pečící i mikrovlnná trouba, rychlovarná konvice a kapslový kávovar Nespresso.",
@@ -74,33 +74,33 @@
         "title": "Ceník ubytování",
         "highSeason": {
           "title": "Hlavní sezóna",
-          "dates": "16. 5. – 15. 9. & 15. 12. – 15. 3.",
-          "weeklyPrice": "33.000 Kč",
-          "shortPrice": "17.000 Kč"
+          "dates": "16. 5. – 15. 9. & 2.1. – 15. 3.",
+          "weeklyPrice": "25 000 Kč",
+          "shortPrice": "15 000 Kč"
         },
         "lowSeason": {
           "title": "Vedlejší sezóna",
-          "dates": "16. 9. – 14. 12. & 16. 3. – 15. 5.",
-          "weeklyPrice": "27.000 Kč",
-          "shortPrice": "15.000 Kč"
+          "dates": "16. 9. – 19. 12. & 16. 3. – 15. 5.",
+          "weeklyPrice": "23 000 Kč",
+          "shortPrice": "13 000 Kč"
         },
         "stays": {
           "weekly": "Týdenní pobyt (7 nocí)",
           "weeklyDesc": "Pobyt pro až 7 osob (5 dospělých + 2 děti)",
           "short": "Krátkodobý pobyt (3-4 noci)",
-          "shortDesc": "Čt–Ne nebo Ne–Čt"
+          "shortDesc": "Prodloužený víkend, Čt–Ne nebo Ne–Čt"
         },
-        "footer": "Cena zahrnuje kromě plně vybaveného apartmánu náklady na elektrickou energii, vodu, úklid a místní poplatky. Součástí ubytování je parkování a venkovní posezení. Při týdenním pobytu cena zahrnuje <span class=\"text-gold font-bold\">1x vstup do finské sauny zdarma</span>, další využití za zvýhodněnou cenu 500 Kč/vstup.",
+        "footer": "Cena zahrnuje kromě plně vybaveného apartmánu náklady na elektrickou energii, vodu a úklid. Součástí ubytování je parkování. Při týdenním pobytu cena zahrnuje <span class=\"text-gold font-bold\">1x vstup do finské sauny zdarma</span>, další využití za zvýhodněnou cenu 500 Kč/vstup.",
         "special": {
           "title": "Speciální termíny 2026/2027",
           "christmas": "Vánoce 2026",
-          "christmasPrice": "70.000 Kč",
+          "christmasPrice": "60 000 Kč",
           "silvestr": "Silvestr 2026/2027",
-          "silvestrPrice": "80.000 Kč",
+          "silvestrPrice": "80 000 Kč",
           "details": "Celá chalupa, oba apartmány, týden",
-          "footer": "Cena zahrnuje elektrickou energii, úklid, místní poplatky a 2x vstup do finské sauny."
+          "footer": "Cena zahrnuje elektrickou energii, úklid a 2x vstup do finské sauny."
         },
-        "notesText": "<p>* Cena nezahrnuje využití nabíjení elektromobilu/hybridu.</p><p>* PŘÍSNÝ ZÁKAZ KOUŘENÍ ve všech vnitřních prostorách. ZVÍŘATA NEJSOU POVOLENA.</p><p>* Chalupa se nachází v CHKO Beskydy, prosíme o ohleduplnost k přírodě, sousedům a životnímu prostředí (třídění odpadů)</p>"
+        "notesText": "<p>* Cena nezahrnuje využití nabíjení elektromobilu/hybridu.</p><p>* PŘÍSNÝ ZÁKAZ KOUŘENÍ ve všech vnitřních prostorách. ZVÍŘATA NEJSOU POVOLENA.</p><p>* Chalupa se nachází v CHKO Beskydy, prosíme o ohleduplnost k přírodě, sousedům a životnímu prostředí.</p>"
       }
     },
     "booking": {
@@ -115,7 +115,7 @@
     "tips": {
       "title": "Tipy na výlet",
       "description": "Objevte krásy Beskyd a okolí Trojmezí.",
-      "preparing": "Připravujeme..<p></p><p>Tip1</p>"
+      "preparing": "<p><b>Celoroční výlety a aktivity</b></p><ul><li><span class=\"hover:entity-accent entity-underline inline cursor-pointer align-baseline\"><span class=\"whitespace-normal\"><b><a href=\"https://www.dolnilomna.cz/turista/turisticke-cile/rozhledna-na-kozubove-a-kaple-sv-anny-103cs.html\" target=\"_blank\" rel=\"noopener noreferrer\">Rozhledna na Kozubové a kaple sv. Anny</a>&nbsp;-&nbsp;</b></span></span>\n\nkaple není veřejně přístupná (pouze v&nbsp;době konání mší). Klíče od&nbsp;rozhledny k&nbsp;vyzvednutí na&nbsp;chatě Kozubová.</li><li><a href=\"https://www.dolnilomna.cz/turista/turisticke-cile/lomnanske-muzeum-101cs.html\" target=\"_blank\" rel=\"noopener noreferrer\"><b>Lomňanské muzeum</b></a>&nbsp;-<b>&nbsp;</b>Místo, kde poznáte tradiční život v Beskydech, místní historii a lidovou architekturu.<br></li><li><span class=\"hover:entity-accent entity-underline inline cursor-pointer align-baseline\"><span class=\"whitespace-normal\"><b>Mionší </b>- nejznámější beskydský prales a jedno z nejcennějších přírodních míst v České republice. Naučná stezka vás provede mezi starými smrky, buky a jedinečnou horskou přírodou.</span></span></li><li><span class=\"hover:entity-accent entity-underline inline cursor-pointer align-baseline\"><span class=\"whitespace-normal\"><a href=\"https://https://www.regiontourist.cz/co-podniknout/rozhledna-tetrev/\" target=\"_blank\" rel=\"noopener noreferrer\"><b>Rozhledna Tetřev</b></a> - dřevěná rozhledna s nádhernými výhledy na beskydské hřebeny. Výlet vhodný i pro rodiny s dětmi.</span></span></li><li><span class=\"hover:entity-accent entity-underline inline cursor-pointer align-baseline\"><span class=\"whitespace-normal\"><b>Velká Čantoryje</b> - oblíbený turistický cíl na česko-polské hranici. Na vrcholu se nachází rozhledna.</span></span></li><li><b>Čertovy mlýny</b> - méně známé skalní útvary ukryté v beskydských lesích. Klidná turistika mimo hlavní trasy.</li></ul><p><br></p><p><b>Aktivity s dětmi</b></p><ul><li><b><a href=\"https://ursuscentrum.cz/\" target=\"_blank\" rel=\"noopener noreferrer\">URSUS zážitkové centrum</a></b>&nbsp;- interaktivní centrum zaměřené na beskydskou přírodu, šelmy a život v horách. Skvělé místo pro děti i dospělé.</li><li><a href=\"https://www.dolnilomna.cz/turista/turisticke-cile/zbojnicka-stezka-96cs.html\" target=\"_blank\" rel=\"noopener noreferrer\"><b>Stezka zbojníků</b></a>&nbsp;- krátká zábavná stezka s herními prvky pro děti. Ideální na nenáročnou rodinnou procházku.</li><li><span class=\"whitespace-normal\"><b><a href=\"https://www.dolnilomna.cz/turista/vyjizdky-na-konich/kone-z-lomne-131cs.html\" target=\"_blank\" rel=\"noopener noreferrer\">Koně z Lomné</a>&nbsp;</b>- p</span>rojížďky na koních krásnou beskydskou krajinou. Vhodné i pro začátečníky a rodiny s dětmi.</li></ul><p><b><br></b></p><p><b>Lyžování v Dolní Lomné:</b></p><p></p><p></p><ul></ul><p></p><ul><li><span class=\"whitespace-normal\"><a href=\"https://www.severka.eu/\" target=\"_blank\" rel=\"noopener noreferrer\"><b>Ski Areál Severka&nbsp;</b></a>-&nbsp;</span>oblíbený areál s krásnými výhledy, večerním lyžováním a příjemnou atmosférou.</li><li><span class=\"hover:entity-accent entity-underline inline cursor-pointer align-baseline\"><span class=\"whitespace-normal\"><a href=\"https://www.kempaland.eu/\" target=\"_blank\" rel=\"noopener noreferrer\"><b>Ski Bukovec</b></a> - </span></span>rodinný lyžařský areál vhodný zejména pro menší děti a začátečníky.</li><li><span class=\"whitespace-normal\"><a href=\"https://www.skiarmada.cz/mapa\" target=\"_blank\" rel=\"noopener noreferrer\"><b>Ski Armáda</b></a>&nbsp;- m</span>enší lyžařský areál přímo v Dolní Lomné.</li></ul>&nbsp;&nbsp;<p></p><p><b>Běžky a zimní turistika:&nbsp;</b></p><p></p><p></p><ul><li><span class=\"hover:entity-accent entity-underline inline cursor-pointer align-baseline\"><span class=\"whitespace-normal\"><b>Velký Polom </b>- n</span></span>ádherné běžkařské trasy a zimní výhledy na české i slovenské Beskydy. Rozhledna Velký Polom, propojení s hřebenovkou směrem na Bílý Kříž a slovenský Kysuce.</li><li><span class=\"hover:entity-accent entity-underline inline cursor-pointer align-baseline\"><span class=\"whitespace-normal\"><b>Rozhledna Kozubová</b> - o</span></span>blíbený zimní výšlap s panoramatickými výhledy na zasněžené hory.</li><li><span class=\"hover:entity-accent entity-underline inline cursor-pointer align-baseline\"><span class=\"whitespace-normal\"><b>Velká Čantoryje</b> - j</span></span>eden z nejkrásnějších vrcholů v okolí s rozhlednou a výhledy až do Polska.</li><li>Doporučené <a href=\"https://www.dolnilomna.cz/turista/bezkarske-trate/\" target=\"_blank\" rel=\"noopener noreferrer\"><b>běžkařské tratě</b></a> na mapě</li></ul>"
     },
     "contact": {
       "title": "Kontaktujte nás",
@@ -175,8 +175,8 @@
       "admin": "Admin"
     },
     "seo": {
-      "title": "Panorama Trojmezí | Luxury Accommodation in Beskydy",
-      "description": "Luxury apartments with private saunas and breathtaking views. Experience serenity you won't find anywhere else."
+      "title": "Wake Up in the Clouds: Panorama Trojmezí | Luxury Accommodation in Beskydy",
+      "description": "Escape the ordinary. Panorama Trojmezí offers luxury apartments with private saunas and breathtaking views. Experience serenity you won't find anywhere else."
     },
     "hero": {
       "titlePrefix": "Apartments",
@@ -189,7 +189,7 @@
       "intro": "<p>Nestled in the peaceful mountain village of <b>Dolní Lomná</b>, our newly built chalet offers luxurious accommodation surrounded by the beautiful nature of the Beskydy Mountains.</p><p>Located at an altitude of approximately 600 meters, the apartment provides breathtaking views of the valley and surrounding hills, creating the perfect place for relaxation in every season.</p><p>Whether you enjoy hiking, cycling, skiing, or simply unwinding in nature, you will find everything you need for a memorable stay. During winter, the nearby Severka ski resort offers excellent conditions for both downhill and cross-country skiing.</p><p>Built in 2024, the spacious apartment is fully equipped to ensure maximum comfort throughout your stay.</p>",
       "welcome": {
         "title": "REFRESHMENTS UPON ARRIVAL",
-        "text": "To welcome you, a chilled bottle of fine Prosecco will be waiting upon your arrival. You will also find coffee capsules, tea, and basic seasonings prepared for your first use. For wine lovers, premium wines from the South Moravian region of Čejkovice are available for an additional fee."
+        "text": "To welcome you, a bottle of fine Prosecco will be waiting upon your arrival. You will also find coffee capsules, tea, and basic seasonings prepared for your first use. For wine lovers, premium wines from the South Moravian region of Čejkovice are available for an additional fee."
       },
       "sauna": {
         "title": "FINNISH SAUNA",
@@ -207,7 +207,7 @@
     "apartments": {
       "title": "Apartments",
       "description": "We offer a luxuriously equipped apartment with breathtaking views and the possibility to use a sauna.",
-      "intro": "The property offers <span class=\"text-gold font-bold\">2 spacious and separate apartments</span>, each with its own bathroom and facilities.",
+      "intro": "The property offers <span class=\"text-gold font-bold\">2 separate apartments</span>, each with its own bathroom and facilities.",
       "layout": {
         "text": "<ul><li><b>1 living room with kitchen and access to the terrace</b></li><li><b>2 bedrooms:</b><br>Bedroom – 1 double bed, 1 single bed<br>Bedroom – 1 double bed, 1 bunk bed for children</li></ul>",
         "living": "1 living room with kitchen and access to the terrace",
@@ -240,15 +240,15 @@
         "title": "Accommodation Price List",
         "highSeason": {
           "title": "High Season",
-          "dates": "May 16 – Sept 15 & Dec 15 – March 15",
-          "weeklyPrice": "33,000 CZK",
-          "shortPrice": "17,000 CZK"
+          "dates": "May 16 – Sept 15 & Jan 02 – March 15",
+          "weeklyPrice": "25 000 CZK",
+          "shortPrice": "15 000 CZK"
         },
         "lowSeason": {
           "title": "Low Season",
-          "dates": "Sept 16 – Dec 14 & March 16 – May 15",
-          "weeklyPrice": "27,000 CZK",
-          "shortPrice": "15,000 CZK"
+          "dates": "Sept 16 – Dec 19 & March 16 – May 15",
+          "weeklyPrice": "23 000 CZK",
+          "shortPrice": "13 000 CZK"
         },
         "stays": {
           "weekly": "Weekly stay (7 nights)",
@@ -256,17 +256,17 @@
           "short": "Short-term stay (3-4 nights)",
           "shortDesc": "Thu–Sun or Sun–Thu"
         },
-        "footer": "The price includes electricity, water, cleaning, and local tourist fees, in addition to the fully equipped apartment. Parking and outdoor seating are also included. For weekly stays, the price includes <span class=\"text-gold font-bold\">1 complimentary entry to the Finnish sauna</span>. Additional sauna access is available for a discounted price of CZK 500 per entry.",
+        "footer": "The price includes electricity, water, cleaning, in addition to the fully equipped apartment. Parking and outdoor seating are also included. For weekly stays, the price includes <span class=\"text-gold font-bold\">1 complimentary entry to the Finnish sauna</span>. Additional sauna access is available for a discounted price of CZK 500 per entry.",
         "special": {
           "title": "Special Dates 2026/2027",
           "christmas": "Christmas 2026",
-          "christmasPrice": "70,000 CZK",
+          "christmasPrice": "70 000 CZK",
           "silvestr": "New Year's Eve 2026/2027",
-          "silvestrPrice": "80,000 CZK",
+          "silvestrPrice": "80 000 CZK",
           "details": "Entire cottage, both apartments, week",
-          "footer": "The price includes electricity, cleaning, local fees, and 2x entry to the Finnish sauna."
+          "footer": "The price includes electricity, cleaning, and 2x entry to the Finnish sauna."
         },
-        "notesText": "<p>* Charging of electric or hybrid vehicles is not included in the price.</p><p>* STRICT NO SMOKING policy throughout all indoor areas. PETS ARE NOT ALLOWED.</p><p>* The chalet is located in the protected Beskydy landscape area. We kindly ask guests to respect nature, neighbors, and the environment, including waste sorting.</p>"
+        "notesText": "<p>* Charging of electric or hybrid vehicles is not included in the price.</p><p>* STRICT NO SMOKING policy throughout all indoor areas. PETS ARE NOT ALLOWED.</p><p>* The chalet is located in the protected Beskydy landscape area. We kindly ask guests to respect nature, neighbors, and the environment.</p>"
       }
     },
     "booking": {
